@@ -1,15 +1,29 @@
 import asyncHandler from "express-async-handler";
 import Wallet from "../../models/walletSchema.js";
 import transactionSchema from "../../models/transactionSchema.js";
-import e from "express";
 
 const addToWallet = asyncHandler(async (req, res) => {
   try {
     const { userId, amount, type, category, description, date } = req.body;
 
     // Validate required fields
-    if (!userId || !amount || !type || !category || !description || !date) {
+    if (
+      !userId ||
+      amount === undefined ||
+      amount === null ||
+      !type ||
+      !category ||
+      !description ||
+      !date
+    ) {
       return res.status(400).json({ message: "Please provide required data" });
+    }
+
+    // Validate amount is a number and positive
+    if (typeof amount !== "number" || isNaN(amount) || amount <= 0) {
+      return res
+        .status(400)
+        .json({ message: "Amount must be a valid positive number" });
     }
 
     // Check if wallet exists
@@ -17,6 +31,8 @@ const addToWallet = asyncHandler(async (req, res) => {
     let walletId = "";
 
     if (wallet) {
+      console.log(typeof wallet.amount);
+
       // Update existing wallet amount
       if (type === "income") {
         wallet.amount += amount;
@@ -26,6 +42,10 @@ const addToWallet = asyncHandler(async (req, res) => {
         } else {
           wallet.amount -= amount;
         }
+      } else {
+        return res
+          .status(400)
+          .json({ message: "Type must be either 'income' or 'expense'" });
       }
       await wallet.save();
       walletId = wallet._id;
@@ -33,12 +53,16 @@ const addToWallet = asyncHandler(async (req, res) => {
       // Create new wallet
       if (type === "income") {
         wallet = await Wallet.create({ userId, amount, transactions: [] });
+        walletId = wallet._id;
       } else if (type === "expense") {
-        res
+        return res
           .status(400)
           .json({ message: "Expense cannot be added to an empty wallet" });
+      } else {
+        return res
+          .status(400)
+          .json({ message: "Type must be either 'income' or 'expense'" });
       }
-      walletId = wallet._id;
     }
 
     // Create a new transaction

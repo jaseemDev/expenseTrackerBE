@@ -5,8 +5,8 @@ export const sendEmail = (toEmail, message) => {
     host: "sandbox.smtp.mailtrap.io",
     port: 2525,
     auth: {
-      user: "f380f74e4b2d29",
-      pass: "4fd8bea958aeb6",
+      user: "cfe4a3ec13085a",
+      pass: "658d3e932cf64f",
     },
   });
   const mailOptions = {

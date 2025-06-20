@@ -1,0 +1,474 @@
+{
+  email: 'Jaseem@example.com',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'insomnia/11.2.0',
+  level: 'info',
+  message: 'Attempting to send password reset link to:',
+  timestamp: '2025-06-20 08:36:41'
+}
+{
+  email: 'Jaseem@example.com',
+  ip: '::ffff:127.0.0.1',
+  processingTime: 701,
+  level: 'warn',
+  message: 'Password reset failed - user not found',
+  timestamp: '2025-06-20 08:36:42'
+}
+{
+  email: 'jazz@mailinator.com',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'insomnia/11.2.0',
+  level: 'info',
+  message: 'Attempting to send password reset link to:',
+  timestamp: '2025-06-20 08:37:08'
+}
+{
+  email: 'jazz@mailinator.com',
+  ip: '::ffff:127.0.0.1',
+  error: "Cannot read properties of undefined (reading 'then')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'then')\n" +
+    '    at file:///D:/jaseem/portfolio-proj/expensetracker/controllers/users/sendPasswordResetLInk.js:128:9',
+  processingTime: 198,
+  level: 'error',
+  message: 'Password reset link generation failed',
+  timestamp: '2025-06-20 08:37:09'
+}
+{
+  email: 'jazz@mailinator.com',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'insomnia/11.2.0',
+  level: 'info',
+  message: 'Attempting to send password reset link to:',
+  timestamp: '2025-06-20 08:38:00'
+}
+{
+  email: 'jazz@mailinator.com',
+  ip: '::ffff:127.0.0.1',
+  error: "Cannot read properties of undefined (reading 'then')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'then')\n" +
+    '    at file:///D:/jaseem/portfolio-proj/expensetracker/controllers/users/sendPasswordResetLInk.js:128:9',
+  processingTime: 451,
+  level: 'error',
+  message: 'Password reset link generation failed',
+  timestamp: '2025-06-20 08:38:01'
+}
+{
+  email: 'jazz@mailinator.com',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'insomnia/11.2.0',
+  level: 'info',
+  message: 'Attempting to send password reset link to:',
+  timestamp: '2025-06-20 08:38:08'
+}
+{
+  email: 'jazz@mailinator.com',
+  ip: '::ffff:127.0.0.1',
+  error: "Cannot read properties of undefined (reading 'then')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'then')\n" +
+    '    at file:///D:/jaseem/portfolio-proj/expensetracker/controllers/users/sendPasswordResetLInk.js:128:9',
+  processingTime: 359,
+  level: 'error',
+  message: 'Password reset link generation failed',
+  timestamp: '2025-06-20 08:38:08'
+}
+{
+  email: 'jazz@mailinator.com',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'insomnia/11.2.0',
+  level: 'info',
+  message: 'Attempting to send password reset link to:',
+  timestamp: '2025-06-20 08:40:54'
+}
+{
+  userId: new ObjectId('6853c51a4f3a2c07d9e76014'),
+  email: 'jazz@mailinator.com',
+  ip: '::ffff:127.0.0.1',
+  tokenExpiration: 2025-06-20T04:55:55.045Z,
+  processingTime: 226,
+  level: 'info',
+  message: 'Password reset link generated',
+  timestamp: '2025-06-20 08:40:55'
+}
+{
+  userId: '6853c51a4f3a2c07d9e76014',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'insomnia/11.2.0',
+  timestamp: '2025-06-20 08:54:23',
+  level: 'info',
+  message: 'Reset password request received'
+}
+{
+  userId: '6853c51a4f3a2c07d9e76014',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'insomnia/11.2.0',
+  timestamp: '2025-06-20 08:54:45',
+  level: 'info',
+  message: 'Reset password request received'
+}
+{
+  userId: '6853c51a4f3a2c07d9e76014',
+  hasResetToken: false,
+  hasExpiration: false,
+  ip: '::ffff:127.0.0.1',
+  level: 'warn',
+  message: 'Password reset failed - no active reset token',
+  timestamp: '2025-06-20 08:54:45'
+}
+{
+  email: 'jazz@mailinator.com',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'insomnia/11.2.0',
+  level: 'info',
+  message: 'Attempting to send password reset link to:',
+  timestamp: '2025-06-20 08:54:55'
+}
+{
+  userId: new ObjectId('6853c51a4f3a2c07d9e76014'),
+  email: 'jazz@mailinator.com',
+  ip: '::ffff:127.0.0.1',
+  tokenExpiration: 2025-06-20T05:09:56.237Z,
+  processingTime: 329,
+  level: 'info',
+  message: 'Password reset link generated',
+  timestamp: '2025-06-20 08:54:56'
+}
+{
+  userId: '6853c51a4f3a2c07d9e76014',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'insomnia/11.2.0',
+  timestamp: '2025-06-20 08:55:04',
+  level: 'info',
+  message: 'Reset password request received'
+}
+{
+  userId: '6853c51a4f3a2c07d9e76014',
+  hasResetToken: false,
+  hasExpiration: false,
+  ip: '::ffff:127.0.0.1',
+  level: 'warn',
+  message: 'Password reset failed - no active reset token',
+  timestamp: '2025-06-20 08:55:04'
+}
+{
+  userId: '6853c51a4f3a2c07d9e76014',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'insomnia/11.2.0',
+  timestamp: '2025-06-20 08:55:20',
+  level: 'info',
+  message: 'Reset password request received'
+}
+{
+  userId: '6853c51a4f3a2c07d9e76014',
+  hasResetToken: false,
+  hasExpiration: false,
+  ip: '::ffff:127.0.0.1',
+  level: 'warn',
+  message: 'Password reset failed - no active reset token',
+  timestamp: '2025-06-20 08:55:20'
+}
+{
+  userId: '6853c51a4f3a2c07d9e76014',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'insomnia/11.2.0',
+  timestamp: '2025-06-20 08:56:48',
+  level: 'info',
+  message: 'Reset password request received'
+}
+{
+  userId: '6853c51a4f3a2c07d9e76014',
+  hasResetToken: false,
+  hasExpiration: false,
+  ip: '::ffff:127.0.0.1',
+  level: 'warn',
+  message: 'Password reset failed - no active reset token',
+  timestamp: '2025-06-20 08:56:48'
+}
+{
+  email: 'jazz@mailinator.com',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'insomnia/11.2.0',
+  level: 'info',
+  message: 'Attempting to send password reset link to:',
+  timestamp: '2025-06-20 09:05:09'
+}
+{
+  userId: new ObjectId('6853c51a4f3a2c07d9e76014'),
+  email: 'jazz@mailinator.com',
+  ip: '::ffff:127.0.0.1',
+  tokenExpiration: 2025-06-20T05:20:09.554Z,
+  processingTime: 103,
+  level: 'info',
+  message: 'Password reset link generated',
+  timestamp: '2025-06-20 09:05:09'
+}
+{
+  email: 'jazz@mailinator.com',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'insomnia/11.2.0',
+  level: 'info',
+  message: 'Attempting to send password reset link to:',
+  timestamp: '2025-06-20 09:11:08'
+}
+{
+  userId: new ObjectId('6853c51a4f3a2c07d9e76014'),
+  email: 'jazz@mailinator.com',
+  ip: '::ffff:127.0.0.1',
+  tokenExpiration: 2025-06-20T05:26:09.084Z,
+  processingTime: 294,
+  level: 'info',
+  message: 'Password reset link generated',
+  timestamp: '2025-06-20 09:11:09'
+}
+{
+  userId: '6853c51a4f3a2c07d9e76014',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'insomnia/11.2.0',
+  timestamp: '2025-06-20 09:11:45',
+  level: 'info',
+  message: 'Reset password request received'
+}
+{
+  userId: '6853c51a4f3a2c07d9e76014',
+  ip: '::ffff:127.0.0.1',
+  error: 'User is not defined',
+  stack: 'ReferenceError: User is not defined\n' +
+    '    at file:///D:/jaseem/portfolio-proj/expensetracker/controllers/users/resetPassword.js:154:5',
+  processingTime: 254,
+  level: 'error',
+  message: 'Password reset error',
+  timestamp: '2025-06-20 09:11:46'
+}
+{
+  userId: '6853c51a4f3a2c07d9e76014',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'insomnia/11.2.0',
+  timestamp: '2025-06-20 09:12:38',
+  level: 'info',
+  message: 'Reset password request received'
+}
+{
+  userId: '6853c51a4f3a2c07d9e76014',
+  ip: '::ffff:127.0.0.1',
+  error: 'getClearCookieConfig is not defined',
+  stack: 'ReferenceError: getClearCookieConfig is not defined\n' +
+    '    at file:///D:/jaseem/portfolio-proj/expensetracker/controllers/users/resetPassword.js:167:9\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)',
+  processingTime: 803,
+  level: 'error',
+  message: 'Password reset error',
+  timestamp: '2025-06-20 09:12:38'
+}
+{
+  userId: '6853c51a4f3a2c07d9e76014',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'insomnia/11.2.0',
+  timestamp: '2025-06-20 09:15:14',
+  level: 'info',
+  message: 'Reset password request received'
+}
+{
+  userId: '6853c51a4f3a2c07d9e76014',
+  hasResetToken: false,
+  hasExpiration: false,
+  ip: '::ffff:127.0.0.1',
+  level: 'warn',
+  message: 'Password reset failed - no active reset token',
+  timestamp: '2025-06-20 09:15:15'
+}
+{
+  email: 'jazz@mailinator.com',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'insomnia/11.2.0',
+  level: 'info',
+  message: 'Attempting to send password reset link to:',
+  timestamp: '2025-06-20 09:15:22'
+}
+{
+  userId: new ObjectId('6853c51a4f3a2c07d9e76014'),
+  email: 'jazz@mailinator.com',
+  level: 'info',
+  message: 'Existing reset token cleared',
+  timestamp: '2025-06-20 09:15:22'
+}
+{
+  userId: new ObjectId('6853c51a4f3a2c07d9e76014'),
+  email: 'jazz@mailinator.com',
+  ip: '::ffff:127.0.0.1',
+  tokenExpiration: 2025-06-20T05:30:22.858Z,
+  processingTime: 424,
+  level: 'info',
+  message: 'Password reset link generated',
+  timestamp: '2025-06-20 09:15:22'
+}
+{
+  userId: '6853c51a4f3a2c07d9e76014',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'insomnia/11.2.0',
+  timestamp: '2025-06-20 09:15:36',
+  level: 'info',
+  message: 'Reset password request received'
+}
+{
+  userId: '6853c51a4f3a2c07d9e76014',
+  ip: '::ffff:127.0.0.1',
+  error: 'session is not defined',
+  stack: 'ReferenceError: session is not defined\n' +
+    '    at file:///D:/jaseem/portfolio-proj/expensetracker/controllers/users/resetPassword.js:139:7',
+  processingTime: 342,
+  level: 'error',
+  message: 'Password reset error',
+  timestamp: '2025-06-20 09:15:36'
+}
+{
+  userId: '6853c51a4f3a2c07d9e76014',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'insomnia/11.2.0',
+  timestamp: '2025-06-20 09:15:55',
+  level: 'info',
+  message: 'Reset password request received'
+}
+{
+  userId: '6853c51a4f3a2c07d9e76014',
+  ip: '::ffff:127.0.0.1',
+  level: 'warn',
+  message: 'Password reset failed - same password',
+  timestamp: '2025-06-20 09:15:55'
+}
+{
+  userId: '6853c51a4f3a2c07d9e76014',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'insomnia/11.2.0',
+  timestamp: '2025-06-20 09:16:02',
+  level: 'info',
+  message: 'Reset password request received'
+}
+{
+  userId: '6853c51a4f3a2c07d9e76014',
+  ip: '::ffff:127.0.0.1',
+  processingTime: 410,
+  level: 'info',
+  message: 'Password reset successful',
+  timestamp: '2025-06-20 09:16:03'
+}
+{
+  email: 'jazz@mailinator.com',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'insomnia/11.2.0',
+  level: 'info',
+  message: 'Attempting to login user:',
+  timestamp: '2025-06-20 09:16:25'
+}
+{
+  userId: new ObjectId('6853c51a4f3a2c07d9e76014'),
+  email: 'jazz@mailinator.com',
+  ip: '::ffff:127.0.0.1',
+  processingTime: 473,
+  level: 'info',
+  message: 'Login successful',
+  timestamp: '2025-06-20 09:16:25'
+}
+{
+  email: 'jazz@mailinator.com',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'insomnia/11.2.0',
+  level: 'info',
+  message: 'Attempting to login user:',
+  timestamp: '2025-06-20 09:16:31'
+}
+{
+  email: 'jazz@mailinator.com',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'insomnia/11.2.0',
+  level: 'info',
+  message: 'Attempting to login user:',
+  timestamp: '2025-06-20 09:16:36'
+}
+{
+  email: 'jazz@mailinator.com',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'insomnia/11.2.0',
+  level: 'info',
+  message: 'Attempting to send password reset link to:',
+  timestamp: '2025-06-20 09:16:40'
+}
+{
+  userId: new ObjectId('6853c51a4f3a2c07d9e76014'),
+  email: 'jazz@mailinator.com',
+  level: 'info',
+  message: 'Existing reset token cleared',
+  timestamp: '2025-06-20 09:16:40'
+}
+{
+  userId: new ObjectId('6853c51a4f3a2c07d9e76014'),
+  email: 'jazz@mailinator.com',
+  ip: '::ffff:127.0.0.1',
+  tokenExpiration: 2025-06-20T05:31:40.312Z,
+  processingTime: 385,
+  level: 'info',
+  message: 'Password reset link generated',
+  timestamp: '2025-06-20 09:16:40'
+}
+{
+  userId: '6853c51a4f3a2c07d9e76014',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'insomnia/11.2.0',
+  timestamp: '2025-06-20 09:16:54',
+  level: 'info',
+  message: 'Reset password request received'
+}
+{
+  userId: '6853c51a4f3a2c07d9e76014',
+  ip: '::ffff:127.0.0.1',
+  level: 'warn',
+  message: 'Password reset failed - same password',
+  timestamp: '2025-06-20 09:16:54'
+}
+{
+  userId: '6853c51a4f3a2c07d9e76014',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'insomnia/11.2.0',
+  timestamp: '2025-06-20 09:17:05',
+  level: 'info',
+  message: 'Reset password request received'
+}
+{
+  userId: '6853c51a4f3a2c07d9e76014',
+  ip: '::ffff:127.0.0.1',
+  processingTime: 523,
+  level: 'info',
+  message: 'Password reset successful',
+  timestamp: '2025-06-20 09:17:06'
+}
+{
+  email: 'jazz@mailinator.com',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'insomnia/11.2.0',
+  level: 'info',
+  message: 'Attempting to login user:',
+  timestamp: '2025-06-20 09:17:13'
+}
+{
+  email: 'jazz@mailinator.com',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'insomnia/11.2.0',
+  level: 'info',
+  message: 'Attempting to login user:',
+  timestamp: '2025-06-20 09:17:18'
+}
+{
+  email: 'jazz@mailinator.com',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'insomnia/11.2.0',
+  level: 'info',
+  message: 'Attempting to login user:',
+  timestamp: '2025-06-20 09:17:24'
+}
+{
+  userId: new ObjectId('6853c51a4f3a2c07d9e76014'),
+  email: 'jazz@mailinator.com',
+  ip: '::ffff:127.0.0.1',
+  processingTime: 350,
+  level: 'info',
+  message: 'Login successful',
+  timestamp: '2025-06-20 09:17:25'
+}

@@ -3,7 +3,7 @@ import asyncHandler from "express-async-handler";
 
 const getAllExpense = asyncHandler(async (req, res) => {
   try {
-    const { category, user } = req.query;
+    const { category, user } = req.body;
 
     // Ensure user query parameter is provided
     if (!user) {

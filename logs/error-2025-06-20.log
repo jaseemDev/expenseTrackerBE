@@ -1,0 +1,67 @@
+{
+  email: 'jazz@mailinator.com',
+  ip: '::ffff:127.0.0.1',
+  error: "Cannot read properties of undefined (reading 'then')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'then')\n" +
+    '    at file:///D:/jaseem/portfolio-proj/expensetracker/controllers/users/sendPasswordResetLInk.js:128:9',
+  processingTime: 198,
+  level: 'error',
+  message: 'Password reset link generation failed',
+  timestamp: '2025-06-20 08:37:09'
+}
+{
+  email: 'jazz@mailinator.com',
+  ip: '::ffff:127.0.0.1',
+  error: "Cannot read properties of undefined (reading 'then')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'then')\n" +
+    '    at file:///D:/jaseem/portfolio-proj/expensetracker/controllers/users/sendPasswordResetLInk.js:128:9',
+  processingTime: 451,
+  level: 'error',
+  message: 'Password reset link generation failed',
+  timestamp: '2025-06-20 08:38:01'
+}
+{
+  email: 'jazz@mailinator.com',
+  ip: '::ffff:127.0.0.1',
+  error: "Cannot read properties of undefined (reading 'then')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'then')\n" +
+    '    at file:///D:/jaseem/portfolio-proj/expensetracker/controllers/users/sendPasswordResetLInk.js:128:9',
+  processingTime: 359,
+  level: 'error',
+  message: 'Password reset link generation failed',
+  timestamp: '2025-06-20 08:38:08'
+}
+{
+  userId: '6853c51a4f3a2c07d9e76014',
+  ip: '::ffff:127.0.0.1',
+  error: 'User is not defined',
+  stack: 'ReferenceError: User is not defined\n' +
+    '    at file:///D:/jaseem/portfolio-proj/expensetracker/controllers/users/resetPassword.js:154:5',
+  processingTime: 254,
+  level: 'error',
+  message: 'Password reset error',
+  timestamp: '2025-06-20 09:11:46'
+}
+{
+  userId: '6853c51a4f3a2c07d9e76014',
+  ip: '::ffff:127.0.0.1',
+  error: 'getClearCookieConfig is not defined',
+  stack: 'ReferenceError: getClearCookieConfig is not defined\n' +
+    '    at file:///D:/jaseem/portfolio-proj/expensetracker/controllers/users/resetPassword.js:167:9\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)',
+  processingTime: 803,
+  level: 'error',
+  message: 'Password reset error',
+  timestamp: '2025-06-20 09:12:38'
+}
+{
+  userId: '6853c51a4f3a2c07d9e76014',
+  ip: '::ffff:127.0.0.1',
+  error: 'session is not defined',
+  stack: 'ReferenceError: session is not defined\n' +
+    '    at file:///D:/jaseem/portfolio-proj/expensetracker/controllers/users/resetPassword.js:139:7',
+  processingTime: 342,
+  level: 'error',
+  message: 'Password reset error',
+  timestamp: '2025-06-20 09:15:36'
+}

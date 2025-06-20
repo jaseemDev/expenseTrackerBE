@@ -9,13 +9,20 @@ import categoryRoutes from "./routes/categoryRoutes.js";
 import walletRoutes from "./routes/walletRoutes.js";
 import expenseRoutes from "./routes/expenseRoutes.js";
 import budgetRoutes from "./routes/budgetRoutes.js";
+import cookieParser from "cookie-parser";
 
 dotenv.config();
 
 const app = express();
 
-app.use(cors());
+app.use(
+  cors({
+    origin: "http://localhost:3000", // your frontend URL
+    credentials: true,
+  })
+);
 app.use(express.json());
+app.use(cookieParser());
 
 // Set up __dirname for ES module
 const __dirname = path.resolve();

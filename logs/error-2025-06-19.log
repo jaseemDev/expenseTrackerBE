@@ -1,0 +1,95 @@
+{
+  email: 'Aravind@example.com',
+  error: 'Given transaction number 1 does not match any in-progress transactions. The active transaction number is -1',
+  stack: 'MongoServerError: Given transaction number 1 does not match any in-progress transactions. The active transaction number is -1\n' +
+    '    at Connection.sendCommand (D:\\jaseem\\portfolio-proj\\expensetracker\\node_modules\\mongodb\\lib\\cmap\\connection.js:296:27)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at async Connection.command (D:\\jaseem\\portfolio-proj\\expensetracker\\node_modules\\mongodb\\lib\\cmap\\connection.js:323:26)\n' +
+    '    at async Server.command (D:\\jaseem\\portfolio-proj\\expensetracker\\node_modules\\mongodb\\lib\\sdam\\server.js:170:29)\n' +
+    '    at async FindOperation.execute (D:\\jaseem\\portfolio-proj\\expensetracker\\node_modules\\mongodb\\lib\\operations\\find.js:36:16)\n' +
+    '    at async tryOperation (D:\\jaseem\\portfolio-proj\\expensetracker\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:203:20)\n' +
+    '    at async executeOperation (D:\\jaseem\\portfolio-proj\\expensetracker\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:73:16)\n' +
+    '    at async FindCursor._initialize (D:\\jaseem\\portfolio-proj\\expensetracker\\node_modules\\mongodb\\lib\\cursor\\find_cursor.js:60:26)\n' +
+    '    at async FindCursor.cursorInit (D:\\jaseem\\portfolio-proj\\expensetracker\\node_modules\\mongodb\\lib\\cursor\\abstract_cursor.js:607:27)\n' +
+    '    at async FindCursor.fetchBatch (D:\\jaseem\\portfolio-proj\\expensetracker\\node_modules\\mongodb\\lib\\cursor\\abstract_cursor.js:641:13)',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'insomnia/11.2.0',
+  processTime: 63,
+  level: 'error',
+  message: 'Registration failed: Given transaction number 1 does not match any in-progress transactions. The active transaction number is -1',
+  timestamp: '2025-06-19 11:42:02'
+}
+{
+  email: 'jaseem@example.com',
+  error: 'Given transaction number 2 does not match any in-progress transactions. The active transaction number is 1',
+  stack: 'MongoServerError: Given transaction number 2 does not match any in-progress transactions. The active transaction number is 1\n' +
+    '    at Connection.sendCommand (D:\\jaseem\\portfolio-proj\\expensetracker\\node_modules\\mongodb\\lib\\cmap\\connection.js:296:27)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at async Connection.command (D:\\jaseem\\portfolio-proj\\expensetracker\\node_modules\\mongodb\\lib\\cmap\\connection.js:323:26)\n' +
+    '    at async Server.command (D:\\jaseem\\portfolio-proj\\expensetracker\\node_modules\\mongodb\\lib\\sdam\\server.js:170:29)\n' +
+    '    at async FindOperation.execute (D:\\jaseem\\portfolio-proj\\expensetracker\\node_modules\\mongodb\\lib\\operations\\find.js:36:16)\n' +
+    '    at async tryOperation (D:\\jaseem\\portfolio-proj\\expensetracker\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:203:20)\n' +
+    '    at async executeOperation (D:\\jaseem\\portfolio-proj\\expensetracker\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:73:16)\n' +
+    '    at async FindCursor._initialize (D:\\jaseem\\portfolio-proj\\expensetracker\\node_modules\\mongodb\\lib\\cursor\\find_cursor.js:60:26)\n' +
+    '    at async FindCursor.cursorInit (D:\\jaseem\\portfolio-proj\\expensetracker\\node_modules\\mongodb\\lib\\cursor\\abstract_cursor.js:607:27)\n' +
+    '    at async FindCursor.fetchBatch (D:\\jaseem\\portfolio-proj\\expensetracker\\node_modules\\mongodb\\lib\\cursor\\abstract_cursor.js:641:13)',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'insomnia/11.2.0',
+  processTime: 104,
+  level: 'error',
+  message: 'Registration failed: Given transaction number 2 does not match any in-progress transactions. The active transaction number is 1',
+  timestamp: '2025-06-19 11:58:33'
+}
+{
+  email: 'jazz@example.com',
+  error: 'Given transaction number 1 does not match any in-progress transactions. The active transaction number is -1',
+  stack: 'MongoServerError: Given transaction number 1 does not match any in-progress transactions. The active transaction number is -1\n' +
+    '    at Connection.sendCommand (D:\\jaseem\\portfolio-proj\\expensetracker\\node_modules\\mongodb\\lib\\cmap\\connection.js:296:27)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at async Connection.command (D:\\jaseem\\portfolio-proj\\expensetracker\\node_modules\\mongodb\\lib\\cmap\\connection.js:323:26)\n' +
+    '    at async Server.command (D:\\jaseem\\portfolio-proj\\expensetracker\\node_modules\\mongodb\\lib\\sdam\\server.js:170:29)\n' +
+    '    at async FindOperation.execute (D:\\jaseem\\portfolio-proj\\expensetracker\\node_modules\\mongodb\\lib\\operations\\find.js:36:16)\n' +
+    '    at async tryOperation (D:\\jaseem\\portfolio-proj\\expensetracker\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:203:20)\n' +
+    '    at async executeOperation (D:\\jaseem\\portfolio-proj\\expensetracker\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:73:16)\n' +
+    '    at async FindCursor._initialize (D:\\jaseem\\portfolio-proj\\expensetracker\\node_modules\\mongodb\\lib\\cursor\\find_cursor.js:60:26)\n' +
+    '    at async FindCursor.cursorInit (D:\\jaseem\\portfolio-proj\\expensetracker\\node_modules\\mongodb\\lib\\cursor\\abstract_cursor.js:607:27)\n' +
+    '    at async FindCursor.fetchBatch (D:\\jaseem\\portfolio-proj\\expensetracker\\node_modules\\mongodb\\lib\\cursor\\abstract_cursor.js:641:13)',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'insomnia/11.2.0',
+  processTime: 67,
+  level: 'error',
+  message: 'Registration failed: Given transaction number 1 does not match any in-progress transactions. The active transaction number is -1',
+  timestamp: '2025-06-19 11:59:32'
+}
+{
+  email: 'jazz@mailinator.com',
+  ip: '::ffff:127.0.0.1',
+  error: 'Cannot do exclusion on field __v in inclusion projection',
+  stack: 'MongoServerError: Cannot do exclusion on field __v in inclusion projection\n' +
+    '    at Connection.sendCommand (D:\\jaseem\\portfolio-proj\\expensetracker\\node_modules\\mongodb\\lib\\cmap\\connection.js:296:27)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at async Connection.command (D:\\jaseem\\portfolio-proj\\expensetracker\\node_modules\\mongodb\\lib\\cmap\\connection.js:323:26)\n' +
+    '    at async Server.command (D:\\jaseem\\portfolio-proj\\expensetracker\\node_modules\\mongodb\\lib\\sdam\\server.js:170:29)\n' +
+    '    at async FindOperation.execute (D:\\jaseem\\portfolio-proj\\expensetracker\\node_modules\\mongodb\\lib\\operations\\find.js:36:16)\n' +
+    '    at async tryOperation (D:\\jaseem\\portfolio-proj\\expensetracker\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:203:20)\n' +
+    '    at async executeOperation (D:\\jaseem\\portfolio-proj\\expensetracker\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:73:16)\n' +
+    '    at async FindCursor._initialize (D:\\jaseem\\portfolio-proj\\expensetracker\\node_modules\\mongodb\\lib\\cursor\\find_cursor.js:60:26)\n' +
+    '    at async FindCursor.cursorInit (D:\\jaseem\\portfolio-proj\\expensetracker\\node_modules\\mongodb\\lib\\cursor\\abstract_cursor.js:607:27)\n' +
+    '    at async FindCursor.fetchBatch (D:\\jaseem\\portfolio-proj\\expensetracker\\node_modules\\mongodb\\lib\\cursor\\abstract_cursor.js:641:13)',
+  processingTime: 112,
+  level: 'error',
+  message: 'Login error',
+  timestamp: '2025-06-19 12:53:40'
+}
+{
+  email: 'jazz@mailinator.com',
+  ip: '::ffff:127.0.0.1',
+  error: 'token is not defined',
+  stack: 'ReferenceError: token is not defined\n' +
+    '    at file:///D:/jaseem/portfolio-proj/expensetracker/controllers/users/loginUser.js:56:27\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)',
+  processingTime: 682,
+  level: 'error',
+  message: 'Login error',
+  timestamp: '2025-06-19 12:58:23'
+}

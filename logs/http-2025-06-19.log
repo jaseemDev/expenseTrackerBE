@@ -1,0 +1,464 @@
+{
+  name: 'Jaseem',
+  email: 'Aravind@example.com',
+  phone: '0555045681',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'insomnia/11.2.0',
+  level: 'info',
+  message: 'Attempting to register user:',
+  timestamp: '2025-06-19 11:40:27'
+}
+{
+  name: 'Jaseem',
+  email: 'Aravind@example.com',
+  phone: '0555045681',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'insomnia/11.2.0',
+  level: 'info',
+  message: 'Attempting to register user:',
+  timestamp: '2025-06-19 11:41:48'
+}
+{
+  name: 'Jaseem',
+  email: 'Aravind@example.com',
+  phone: '0555045681',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'insomnia/11.2.0',
+  level: 'info',
+  message: 'Attempting to register user:',
+  timestamp: '2025-06-19 11:42:02'
+}
+{
+  email: 'Aravind@example.com',
+  error: 'Given transaction number 1 does not match any in-progress transactions. The active transaction number is -1',
+  stack: 'MongoServerError: Given transaction number 1 does not match any in-progress transactions. The active transaction number is -1\n' +
+    '    at Connection.sendCommand (D:\\jaseem\\portfolio-proj\\expensetracker\\node_modules\\mongodb\\lib\\cmap\\connection.js:296:27)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at async Connection.command (D:\\jaseem\\portfolio-proj\\expensetracker\\node_modules\\mongodb\\lib\\cmap\\connection.js:323:26)\n' +
+    '    at async Server.command (D:\\jaseem\\portfolio-proj\\expensetracker\\node_modules\\mongodb\\lib\\sdam\\server.js:170:29)\n' +
+    '    at async FindOperation.execute (D:\\jaseem\\portfolio-proj\\expensetracker\\node_modules\\mongodb\\lib\\operations\\find.js:36:16)\n' +
+    '    at async tryOperation (D:\\jaseem\\portfolio-proj\\expensetracker\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:203:20)\n' +
+    '    at async executeOperation (D:\\jaseem\\portfolio-proj\\expensetracker\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:73:16)\n' +
+    '    at async FindCursor._initialize (D:\\jaseem\\portfolio-proj\\expensetracker\\node_modules\\mongodb\\lib\\cursor\\find_cursor.js:60:26)\n' +
+    '    at async FindCursor.cursorInit (D:\\jaseem\\portfolio-proj\\expensetracker\\node_modules\\mongodb\\lib\\cursor\\abstract_cursor.js:607:27)\n' +
+    '    at async FindCursor.fetchBatch (D:\\jaseem\\portfolio-proj\\expensetracker\\node_modules\\mongodb\\lib\\cursor\\abstract_cursor.js:641:13)',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'insomnia/11.2.0',
+  processTime: 63,
+  level: 'error',
+  message: 'Registration failed: Given transaction number 1 does not match any in-progress transactions. The active transaction number is -1',
+  timestamp: '2025-06-19 11:42:02'
+}
+{
+  name: 'Jaseem',
+  email: 'Aravind@example.com',
+  phone: '0555045681',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'insomnia/11.2.0',
+  level: 'info',
+  message: 'Attempting to register user:',
+  timestamp: '2025-06-19 11:42:36'
+}
+{
+  email: 'Aravind@example.com',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'insomnia/11.2.0',
+  level: 'warn',
+  message: 'Registration failed: Email already in use',
+  timestamp: '2025-06-19 11:42:36'
+}
+{
+  name: 'Jaseem',
+  email: 'jaseem@example.com',
+  phone: '0555045681',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'insomnia/11.2.0',
+  level: 'info',
+  message: 'Attempting to register user:',
+  timestamp: '2025-06-19 11:44:42'
+}
+{
+  userId: new ObjectId('6853bfea34df0d860ba82469'),
+  email: 'jaseem@example.com',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'insomnia/11.2.0',
+  processTime: 650,
+  level: 'info',
+  message: 'User registered successfully',
+  timestamp: '2025-06-19 11:44:42'
+}
+{
+  name: 'Jaseem',
+  email: 'jaseem@example.com',
+  phone: '0555045681',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'insomnia/11.2.0',
+  level: 'info',
+  message: 'Attempting to register user:',
+  timestamp: '2025-06-19 11:58:33'
+}
+{
+  email: 'jaseem@example.com',
+  error: 'Given transaction number 2 does not match any in-progress transactions. The active transaction number is 1',
+  stack: 'MongoServerError: Given transaction number 2 does not match any in-progress transactions. The active transaction number is 1\n' +
+    '    at Connection.sendCommand (D:\\jaseem\\portfolio-proj\\expensetracker\\node_modules\\mongodb\\lib\\cmap\\connection.js:296:27)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at async Connection.command (D:\\jaseem\\portfolio-proj\\expensetracker\\node_modules\\mongodb\\lib\\cmap\\connection.js:323:26)\n' +
+    '    at async Server.command (D:\\jaseem\\portfolio-proj\\expensetracker\\node_modules\\mongodb\\lib\\sdam\\server.js:170:29)\n' +
+    '    at async FindOperation.execute (D:\\jaseem\\portfolio-proj\\expensetracker\\node_modules\\mongodb\\lib\\operations\\find.js:36:16)\n' +
+    '    at async tryOperation (D:\\jaseem\\portfolio-proj\\expensetracker\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:203:20)\n' +
+    '    at async executeOperation (D:\\jaseem\\portfolio-proj\\expensetracker\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:73:16)\n' +
+    '    at async FindCursor._initialize (D:\\jaseem\\portfolio-proj\\expensetracker\\node_modules\\mongodb\\lib\\cursor\\find_cursor.js:60:26)\n' +
+    '    at async FindCursor.cursorInit (D:\\jaseem\\portfolio-proj\\expensetracker\\node_modules\\mongodb\\lib\\cursor\\abstract_cursor.js:607:27)\n' +
+    '    at async FindCursor.fetchBatch (D:\\jaseem\\portfolio-proj\\expensetracker\\node_modules\\mongodb\\lib\\cursor\\abstract_cursor.js:641:13)',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'insomnia/11.2.0',
+  processTime: 104,
+  level: 'error',
+  message: 'Registration failed: Given transaction number 2 does not match any in-progress transactions. The active transaction number is 1',
+  timestamp: '2025-06-19 11:58:33'
+}
+{
+  name: 'Jaseem',
+  email: 'jaseem@example.com',
+  phone: '0555045681',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'insomnia/11.2.0',
+  level: 'info',
+  message: 'Attempting to register user:',
+  timestamp: '2025-06-19 11:58:56'
+}
+{
+  email: 'jaseem@example.com',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'insomnia/11.2.0',
+  level: 'warn',
+  message: 'Registration failed: Email already in use',
+  timestamp: '2025-06-19 11:58:56'
+}
+{
+  name: 'Jazz',
+  email: 'jazz@example.com',
+  phone: '0555045682',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'insomnia/11.2.0',
+  level: 'info',
+  message: 'Attempting to register user:',
+  timestamp: '2025-06-19 11:59:32'
+}
+{
+  email: 'jazz@example.com',
+  error: 'Given transaction number 1 does not match any in-progress transactions. The active transaction number is -1',
+  stack: 'MongoServerError: Given transaction number 1 does not match any in-progress transactions. The active transaction number is -1\n' +
+    '    at Connection.sendCommand (D:\\jaseem\\portfolio-proj\\expensetracker\\node_modules\\mongodb\\lib\\cmap\\connection.js:296:27)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at async Connection.command (D:\\jaseem\\portfolio-proj\\expensetracker\\node_modules\\mongodb\\lib\\cmap\\connection.js:323:26)\n' +
+    '    at async Server.command (D:\\jaseem\\portfolio-proj\\expensetracker\\node_modules\\mongodb\\lib\\sdam\\server.js:170:29)\n' +
+    '    at async FindOperation.execute (D:\\jaseem\\portfolio-proj\\expensetracker\\node_modules\\mongodb\\lib\\operations\\find.js:36:16)\n' +
+    '    at async tryOperation (D:\\jaseem\\portfolio-proj\\expensetracker\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:203:20)\n' +
+    '    at async executeOperation (D:\\jaseem\\portfolio-proj\\expensetracker\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:73:16)\n' +
+    '    at async FindCursor._initialize (D:\\jaseem\\portfolio-proj\\expensetracker\\node_modules\\mongodb\\lib\\cursor\\find_cursor.js:60:26)\n' +
+    '    at async FindCursor.cursorInit (D:\\jaseem\\portfolio-proj\\expensetracker\\node_modules\\mongodb\\lib\\cursor\\abstract_cursor.js:607:27)\n' +
+    '    at async FindCursor.fetchBatch (D:\\jaseem\\portfolio-proj\\expensetracker\\node_modules\\mongodb\\lib\\cursor\\abstract_cursor.js:641:13)',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'insomnia/11.2.0',
+  processTime: 67,
+  level: 'error',
+  message: 'Registration failed: Given transaction number 1 does not match any in-progress transactions. The active transaction number is -1',
+  timestamp: '2025-06-19 11:59:32'
+}
+{
+  name: 'Jaseem',
+  email: 'jaseem@mailinator.com',
+  phone: '0555045685',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'insomnia/11.2.0',
+  level: 'info',
+  message: 'Attempting to register user:',
+  timestamp: '2025-06-19 12:05:58'
+}
+{
+  userId: new ObjectId('6853c4e64f3a2c07d9e7600a'),
+  email: 'jaseem@mailinator.com',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'insomnia/11.2.0',
+  processTime: 244,
+  level: 'info',
+  message: 'User registered successfully',
+  timestamp: '2025-06-19 12:05:58'
+}
+{
+  name: 'Jazz',
+  email: 'jazz@mailinator.com',
+  phone: '0555045688',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'insomnia/11.2.0',
+  level: 'info',
+  message: 'Attempting to register user:',
+  timestamp: '2025-06-19 12:06:27'
+}
+{
+  userId: new ObjectId('6853c5034f3a2c07d9e7600f'),
+  email: 'jazz@mailinator.com',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'insomnia/11.2.0',
+  processTime: 156,
+  level: 'info',
+  message: 'User registered successfully',
+  timestamp: '2025-06-19 12:06:27'
+}
+{
+  name: 'Jazz',
+  email: 'jazz@mailinator.com',
+  phone: '0555045688',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'insomnia/11.2.0',
+  level: 'info',
+  message: 'Attempting to register user:',
+  timestamp: '2025-06-19 12:06:50'
+}
+{
+  userId: new ObjectId('6853c51a4f3a2c07d9e76014'),
+  email: 'jazz@mailinator.com',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'insomnia/11.2.0',
+  processTime: 130,
+  level: 'info',
+  message: 'User registered successfully',
+  timestamp: '2025-06-19 12:06:50'
+}
+{
+  email: 'jazz@mailinator.com',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'insomnia/11.2.0',
+  level: 'info',
+  message: 'Attempting to login user:',
+  timestamp: '2025-06-19 12:51:35'
+}
+{
+  email: 'jazz@mailinator.com',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'insomnia/11.2.0',
+  level: 'info',
+  message: 'Attempting to login user:',
+  timestamp: '2025-06-19 12:51:40'
+}
+{
+  userId: new ObjectId('6853c51a4f3a2c07d9e76014'),
+  email: 'jazz@mailinator.com',
+  ip: '::ffff:127.0.0.1',
+  processingTime: 234,
+  level: 'info',
+  message: 'Login successful',
+  timestamp: '2025-06-19 12:51:40'
+}
+{
+  email: 'jazz@mailinator.com',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'insomnia/11.2.0',
+  level: 'info',
+  message: 'Attempting to login user:',
+  timestamp: '2025-06-19 12:53:40'
+}
+{
+  email: 'jazz@mailinator.com',
+  ip: '::ffff:127.0.0.1',
+  error: 'Cannot do exclusion on field __v in inclusion projection',
+  stack: 'MongoServerError: Cannot do exclusion on field __v in inclusion projection\n' +
+    '    at Connection.sendCommand (D:\\jaseem\\portfolio-proj\\expensetracker\\node_modules\\mongodb\\lib\\cmap\\connection.js:296:27)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at async Connection.command (D:\\jaseem\\portfolio-proj\\expensetracker\\node_modules\\mongodb\\lib\\cmap\\connection.js:323:26)\n' +
+    '    at async Server.command (D:\\jaseem\\portfolio-proj\\expensetracker\\node_modules\\mongodb\\lib\\sdam\\server.js:170:29)\n' +
+    '    at async FindOperation.execute (D:\\jaseem\\portfolio-proj\\expensetracker\\node_modules\\mongodb\\lib\\operations\\find.js:36:16)\n' +
+    '    at async tryOperation (D:\\jaseem\\portfolio-proj\\expensetracker\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:203:20)\n' +
+    '    at async executeOperation (D:\\jaseem\\portfolio-proj\\expensetracker\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:73:16)\n' +
+    '    at async FindCursor._initialize (D:\\jaseem\\portfolio-proj\\expensetracker\\node_modules\\mongodb\\lib\\cursor\\find_cursor.js:60:26)\n' +
+    '    at async FindCursor.cursorInit (D:\\jaseem\\portfolio-proj\\expensetracker\\node_modules\\mongodb\\lib\\cursor\\abstract_cursor.js:607:27)\n' +
+    '    at async FindCursor.fetchBatch (D:\\jaseem\\portfolio-proj\\expensetracker\\node_modules\\mongodb\\lib\\cursor\\abstract_cursor.js:641:13)',
+  processingTime: 112,
+  level: 'error',
+  message: 'Login error',
+  timestamp: '2025-06-19 12:53:40'
+}
+{
+  email: 'jazz@mailinator.com',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'insomnia/11.2.0',
+  level: 'info',
+  message: 'Attempting to login user:',
+  timestamp: '2025-06-19 12:54:17'
+}
+{
+  userId: new ObjectId('6853c51a4f3a2c07d9e76014'),
+  email: 'jazz@mailinator.com',
+  ip: '::ffff:127.0.0.1',
+  processingTime: 118,
+  level: 'info',
+  message: 'Login successful',
+  timestamp: '2025-06-19 12:54:18'
+}
+{
+  email: 'jazz@mailinator.com',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'insomnia/11.2.0',
+  level: 'info',
+  message: 'Attempting to login user:',
+  timestamp: '2025-06-19 12:54:37'
+}
+{
+  userId: new ObjectId('6853c51a4f3a2c07d9e76014'),
+  email: 'jazz@mailinator.com',
+  ip: '::ffff:127.0.0.1',
+  processingTime: 150,
+  level: 'info',
+  message: 'Login successful',
+  timestamp: '2025-06-19 12:54:37'
+}
+{
+  email: 'jazz@mailinator.com',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'insomnia/11.2.0',
+  level: 'info',
+  message: 'Attempting to login user:',
+  timestamp: '2025-06-19 12:58:22'
+}
+{
+  userId: new ObjectId('6853c51a4f3a2c07d9e76014'),
+  email: 'jazz@mailinator.com',
+  ip: '::ffff:127.0.0.1',
+  processingTime: 680,
+  level: 'info',
+  message: 'Login successful',
+  timestamp: '2025-06-19 12:58:23'
+}
+{
+  email: 'jazz@mailinator.com',
+  ip: '::ffff:127.0.0.1',
+  error: 'token is not defined',
+  stack: 'ReferenceError: token is not defined\n' +
+    '    at file:///D:/jaseem/portfolio-proj/expensetracker/controllers/users/loginUser.js:56:27\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)',
+  processingTime: 682,
+  level: 'error',
+  message: 'Login error',
+  timestamp: '2025-06-19 12:58:23'
+}
+{
+  email: 'jazz@mailinator.com',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'insomnia/11.2.0',
+  level: 'info',
+  message: 'Attempting to login user:',
+  timestamp: '2025-06-19 12:59:02'
+}
+{
+  userId: new ObjectId('6853c51a4f3a2c07d9e76014'),
+  email: 'jazz@mailinator.com',
+  ip: '::ffff:127.0.0.1',
+  processingTime: 111,
+  level: 'info',
+  message: 'Login successful',
+  timestamp: '2025-06-19 12:59:02'
+}
+{
+  email: 'jazz@mailinator.com',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'insomnia/11.2.0',
+  level: 'info',
+  message: 'Attempting to login user:',
+  timestamp: '2025-06-19 12:59:17'
+}
+{
+  userId: new ObjectId('6853c51a4f3a2c07d9e76014'),
+  email: 'jazz@mailinator.com',
+  ip: '::ffff:127.0.0.1',
+  processingTime: 391,
+  level: 'info',
+  message: 'Login successful',
+  timestamp: '2025-06-19 12:59:17'
+}
+{
+  email: 'jazz@mailinator.com',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'insomnia/11.2.0',
+  level: 'info',
+  message: 'Attempting to login user:',
+  timestamp: '2025-06-19 13:16:20'
+}
+{
+  userId: new ObjectId('6853c51a4f3a2c07d9e76014'),
+  email: 'jazz@mailinator.com',
+  ip: '::ffff:127.0.0.1',
+  processingTime: 327,
+  level: 'info',
+  message: 'Login successful',
+  timestamp: '2025-06-19 13:16:20'
+}
+{
+  email: 'jazz@mailinator.com',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'insomnia/11.2.0',
+  level: 'info',
+  message: 'Attempting to login user:',
+  timestamp: '2025-06-19 13:18:47'
+}
+{
+  userId: new ObjectId('6853c51a4f3a2c07d9e76014'),
+  email: 'jazz@mailinator.com',
+  ip: '::ffff:127.0.0.1',
+  processingTime: 288,
+  level: 'info',
+  message: 'Login successful',
+  timestamp: '2025-06-19 13:18:48'
+}
+{
+  email: 'jazz@mailinator.com',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'insomnia/11.2.0',
+  level: 'info',
+  message: 'Attempting to login user:',
+  timestamp: '2025-06-19 13:23:40'
+}
+{
+  userId: new ObjectId('6853c51a4f3a2c07d9e76014'),
+  email: 'jazz@mailinator.com',
+  ip: '::ffff:127.0.0.1',
+  processingTime: 280,
+  level: 'info',
+  message: 'Login successful',
+  timestamp: '2025-06-19 13:23:40'
+}
+{
+  email: 'jazz@mailinator.com',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'insomnia/11.2.0',
+  level: 'info',
+  message: 'Attempting to login user:',
+  timestamp: '2025-06-19 13:36:02'
+}
+{
+  userId: new ObjectId('6853c51a4f3a2c07d9e76014'),
+  email: 'jazz@mailinator.com',
+  ip: '::ffff:127.0.0.1',
+  processingTime: 181,
+  level: 'info',
+  message: 'Login successful',
+  timestamp: '2025-06-19 13:36:03'
+}
+{
+  email: 'jazz@mailinator.com',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'insomnia/11.2.0',
+  level: 'info',
+  message: 'Attempting to login user:',
+  timestamp: '2025-06-19 15:25:12'
+}
+{
+  userId: new ObjectId('6853c51a4f3a2c07d9e76014'),
+  email: 'jazz@mailinator.com',
+  ip: '::ffff:127.0.0.1',
+  processingTime: 188,
+  level: 'info',
+  message: 'Login successful',
+  timestamp: '2025-06-19 15:25:12'
+}

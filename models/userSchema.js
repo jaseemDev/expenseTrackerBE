@@ -20,7 +20,7 @@ const userSchema = new mongoose.Schema(
       type: Date,
       default: Date.now,
     },
-    isAdmin: { type: Boolean, default: false },
+    userType: { type: String, default: "user" },
     resetToken: { type: String },
     resetTokenExpiration: { type: Date },
   },

@@ -6,11 +6,20 @@ import resetPasswordValidationSchema from "../middlewares/schemas/resetPasswordV
 import { loginUser } from "../controllers/users/loginUser.js";
 import { sendPasswordResetLInk } from "../controllers/users/sendPasswordResetLInk.js";
 import { resetPassword } from "../controllers/users/resetPassword.js";
+import { strictLimiter } from "../middlewares/rateLimiter.js";
+import { validateToken } from "../middlewares/validateToken.js";
+import { profile } from "../controllers/users/profile.js";
 
 const router = express.Router();
 
-router.post("/register", validateInput(registerUserSchema), registerUser);
+router.post(
+  "/register",
+  validateInput(registerUserSchema),
+  strictLimiter,
+  registerUser
+);
 router.post("/login", loginUser);
+router.post("/profile", validateToken, profile);
 router.post(
   "/forgot-password",
   validateInput(resetPasswordValidationSchema),
